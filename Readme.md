@@ -19,4 +19,11 @@ to conntect
 -PreparedStatement:
         PreparedStatement ps= con.preparedStatement(query);
         ps.execute()
+
+
+Method	          ReturnType	          Usage Example
+.execute()	      boolean	              For unknown result types
+.executeQuery()	  ResultSet	            For SELECT queries
+.executeUpdate()	int (rows affected)  	For INSERT, UPDATE, DELETE
+
         
